@@ -11,5 +11,8 @@ Comparing the results with industy standard PCAN, we find that RPAR outperfoms P
 
 ![plot](images/RPAR_results.png)
 
+# Presentation
+A clinical knowledge graph-based machine learning framework to prioritize candidate genes for facilitating diagnosis of Mendelian diseases and rare genetic conditions.
+R Gnanaolivu, G Oliver, G Jenkinson, N Chia, E Klee, C Wang, American Society of Human Genetics, 2023
 
 
