@@ -25,7 +25,7 @@ To install and set up the environment for RPAR:
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone git@github.com:dimi-lab/PPAR.git
    cd RPAR
    ````
    
