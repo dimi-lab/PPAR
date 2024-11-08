@@ -54,6 +54,6 @@ global_hpo --> data/global_HPO.csv
 
 # Presentation
 A clinical knowledge graph-based machine learning framework to prioritize candidate genes for facilitating diagnosis of Mendelian diseases and rare genetic conditions. \
-R Gnanaolivu, G Oliver, G Jenkinson, B Emily, C Wenan, N Chia, E Klee, C Wang, American Society of Human Genetics, 2023
+R Gnanaolivu, G Oliver, G Jenkinson, E Blake, W Chen, N Chia, E Klee, C Wang, American Society of Human Genetics, 2023
 
 
