@@ -34,14 +34,26 @@ To install and set up the environment for RPAR:
    pip install -r requirements.txt
    ```
 
+3. Download the model file from [PPAR_cosine_data.csv dataset on Figshare](https://figshare.com/articles/dataset/PPAR_cosine_data_csv/27638469)
+
+
 ## running PPAR
   ```python
   python PPAR_run_model.py -i <HPO_list> -m <model_file> -g <graph_path> -p <prob_file> -k <total_genes> -gh <global_hpo>
+
+
+HPO list --> Input HPO terms separated by space \
+graph_path --> data/RPAR_gene_phenotype_graph.graphml \
+model_file --> PPAR_cosine_data.csv \
+prob_file -->  data/hpo_probability_custom.csv \
+total_genes --> total number of genes in the output file (default=100) \
+global_hpo --> data/global_HPO.csv
+
   ```
 
 
 # Presentation
 A clinical knowledge graph-based machine learning framework to prioritize candidate genes for facilitating diagnosis of Mendelian diseases and rare genetic conditions. \
-R Gnanaolivu, G Oliver, G Jenkinson, N Chia, E Klee, C Wang, American Society of Human Genetics, 2023
+R Gnanaolivu, G Oliver, G Jenkinson, B Emily, C Wenan, N Chia, E Klee, C Wang, American Society of Human Genetics, 2023
 
 
