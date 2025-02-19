@@ -11,13 +11,13 @@ The PPAR framework integrates clinical knowledge from multiple sources, includin
 2. **Gene-Phenotype Relevance Ranking**: Prioritizes genes based on the Cosine similarity between gene and phenotype nodes, using phenotype information content as weights. Various machine learning strategies were optimized and compared for both modules.
 3. **Parent gene analysis using a custom GO-Gene-Phenotype graph
 
-![Framework Outline](images/PPAR.illustration.png)
+![Framework Outline](images/PPAR_model_illustration.png)
 
 ## Results
 
 PPAR was benchmarked against industry-standard tools such as PCAN and Phen2Gene. Evaluation on a rare disease cohort from the Service-Line (SL-1) group at Mayo Clinic showed that RPAR outperformed PCAN and Phen2Gene in identifying relevant genes for rare genetic conditions.
 
-![Results Comparison](images/PCAN_PPAR_final_SL2_300dpi.png)
+![Results Comparison](images/SL2_results_PCAN_PPAR_Phe2Gene_gado_cada_300dpi.anno.png)
 
 ## Installation
 
